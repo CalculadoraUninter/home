@@ -9,8 +9,12 @@
 #bg-cal {
     background-color: rgba(243, 243, 243, 0.96);
     box-shadow: 0 1px 3px black;
+    margin-top: 10px;
 }
 
+#author{
+    margin-top: 10px;
+}
 .img {
     margin-top: 5px !important;
 }

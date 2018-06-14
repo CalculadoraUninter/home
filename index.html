@@ -59,20 +59,20 @@
     </script>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 " style="background-color: #09960A">
-            <img src="img/logo.png">
-        </div>
 
+    <div style="background-color: #09960A; width: 100%">
+        <img src="img/logo.png">
     </div>
-    <div class="row m-auto">
-        <div class="col-md-9" id="bg-cal">
 
-            <form id="date" onsubmit="re">
-                <div class="form-row">
 
-                    <table class="table">
+<div class="row m-auto">
+    <div class="col-md-9 col-sm-6" id="bg-cal">
+
+        <form id="date">
+            <div class="form-row">
+                <div style="overflow-x:auto;">
+                    <table class="table w-100"
+                           style="border-collapse: collapse;border-spacing: 0;width: 100%;">
                         <thead class="thead-light">
                         <tr>
                             <th scope="col"></th>
@@ -180,37 +180,37 @@
                         </tbody>
                     </table>
                 </div>
+            </div>
+            <div class="alert alert-danger text-center result" role="alert"></div>
 
-                <div class="alert alert-danger text-center result" role="alert"></div>
+            <button class="btn btn-success w-100" style="height: 75px" type="submit">Resultado</button>
+        </form>
 
-                <button class="btn btn-success w-100" style="height: 75px" type="submit">Resultado</button>
-            </form>
+    </div>
 
+    <div class="col-md-3 col-sm-6 text-center">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top w-50 m-auto img" src="img/1.jpg" alt="Card image cap" id="naelson">
+            <div class="card-body">
+                <h5 class="card-title">Naelson G S</h5>
+                <p class="card-text">Cursando analise e desenvolvimento de sistemas</p>
+                <a href="#" class="btn btn-danger">Contato</a>
+            </div>
         </div>
 
-        <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top w-50 m-auto img" src="img/1.jpg" alt="Card image cap" id="naelson">
-                <div class="card-body">
-                    <h5 class="card-title">Naelson G S</h5>
-                    <p class="card-text">Cursando analise e desenvolvimento de sistemas</p>
-                    <a href="#" class="btn btn-danger">Contato</a>
-                </div>
+        <hr/>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top w-50 m-auto img" src="img/2.jpg" alt="Card image cap" id="marcelo">
+            <div class="card-body">
+                <h5 class="card-title">Marcelo</h5>
+                <p class="card-text">Cursando analise e desenvolvimento de sistemas</p>
+                <a href="#" class="btn btn-danger">Contato</a>
             </div>
-
-            <hr/>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top w-50 m-auto img" src="img/2.jpg" alt="Card image cap" id="marcelo">
-                <div class="card-body">
-                    <h5 class="card-title">Marcelo</h5>
-                    <p class="card-text">Cursando analise e desenvolvimento de sistemas</p>
-                    <a href="#" class="btn btn-danger">Contato</a>
-                </div>
-            </div>
-
         </div>
 
     </div>
+
+</div>
 
 
 </div>
